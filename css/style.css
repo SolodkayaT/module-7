@@ -52,9 +52,9 @@
 /*TITLE SERVICES*/
 
 .services-title,
-.footer-title {
+.contact-us-title {
     display: block;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 40px;
     font-weight: 700;
     color: #222222;
@@ -63,7 +63,7 @@
 }
 
 .services-title span,
-.footer-title span {
+.contact-us-title span {
     display: block;
     font-family: 'Lobster', cursive;
     font-size: 16px;
@@ -89,7 +89,7 @@
 }
 
 .service-item-title {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 18px;
     color: #222222;
@@ -98,7 +98,7 @@
 }
 
 .service-item-description {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
     font-weight: 400;
     font-size: 14px;
     color: #777777;
@@ -139,7 +139,7 @@
 
 /*FOOTER*/
 
-.footer-section {
+.contact-us-section {
     background-color: #222222;
     background-repeat: no-repeat;
     background-image: url(../images/Map\ Image@1X.png);
@@ -147,11 +147,11 @@
     padding-top: 115px;
 }
 
-.footer-title {
+.contact-us-title {
     color: #FFFFFF;
 }
 
-.footer-title span {
+.contact-us-title span {
     margin-bottom: 75px;
 }
 
@@ -204,6 +204,7 @@
 
 .contact-us-form textarea {
     padding-top: 20px;
+    resize: none;
 }
 
 input {
@@ -223,16 +224,18 @@ textarea {
     outline: none;
 }
 
-.input-valid:invalid {
-    outline: 2px solid red;
+input:valid:not(:placeholder-shown) {
+    outline: 5px solid green;
 }
 
-.input-valid:valid {
-    outline: 2px solid green;
+input:invalid:not(:placeholder-shown) {
+    outline: 5px solid red;
 }
 
-.input-valid:focus,
-.input-valid:hover {
-    box-shadow: none;
-    outline: none;
+textarea:valid:not(:placeholder-shown) {
+    outline: 5px solid green;
+}
+
+textarea:invalid:not(:placeholder-shown) {
+    outline: 5px solid red;
 }
