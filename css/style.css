@@ -226,17 +226,22 @@ textarea {
 }
 
 input:valid:not(:placeholder-shown) {
-    outline: 5px solid green;
+    outline: 3px solid green;
 }
 
 input:invalid:not(:placeholder-shown) {
-    outline: 5px solid red;
+    outline: 3px solid red;
 }
 
 textarea:valid:not(:placeholder-shown) {
-    outline: 5px solid green;
+    outline: 3px solid green;
 }
 
 textarea:invalid:not(:placeholder-shown) {
-    outline: 5px solid red;
+    outline: 3px solid red;
+}
+
+.input-group input,
+.input-group+textarea {
+    text-transform: none;
 }
