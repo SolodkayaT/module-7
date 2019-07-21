@@ -62,15 +62,16 @@
     text-align: center;
 }
 
-.services-title span,
-.contact-us-title span {
+.servise-subtitle,
+.contact-us-subtitle {
     display: block;
-    font-family: 'Lobster', cursive;
+    font-family: 'Droid';
     font-size: 16px;
     font-weight: 300;
     color: #777777;
     padding-top: 25px;
     margin-bottom: 75px;
+    text-align: center;
 }
 
 
@@ -151,7 +152,7 @@
     color: #FFFFFF;
 }
 
-.contact-us-title span {
+.contact-us-subtitle {
     margin-bottom: 75px;
 }
 

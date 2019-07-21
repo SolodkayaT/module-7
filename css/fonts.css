@@ -12,3 +12,11 @@
     /* Modern Browsers */
     /* Legacy iOS */
 }
+
+@font-face {
+    font-family: 'Droid';
+    font-style: normal;
+    font-weight: 400;
+    src: local('DroidSerifItalic'), url('../fonts/DroidSerifItalic/DroidSerif-Italic.woff') format('woff');
+    /* Super Modern Browsers */
+}
