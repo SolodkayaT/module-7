@@ -245,3 +245,8 @@ textarea:invalid:not(:placeholder-shown) {
 .input-group+textarea {
     text-transform: none;
 }
+
+input::placeholder,
+textarea::placeholder {
+    text-transform: uppercase;
+}
